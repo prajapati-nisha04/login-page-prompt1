@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    background-image: url(https://img.redro.pl/plakaty/abstract-blurry-smooth-blue-white-wave-gradient-background-design-soft-blue-white-background-template-vector-400-202594018.jpg);
+    /* background-position: cover; */
+    /* background-image: url(https://cdn.slidesharecdn.com/ss_thumbnails/css-backgrounds-210422075750-thumbnail.jpg?width=640&height=640&fit=bounds); */
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    background-color: white;
+    align-items: center;
+     background-size: 100px 50px; 
+ background-size: 100% 50%;
+
+}
+body img{
+    width: 600px;
+    height: 600px;
+    /* background-size: 300px 50px;  */
+    background-size: 50% 50%;
+}
+
+
+
+.container{
+    background-color: white;
+     /* background: url(https://cdn.pixabay.com/photo/2022/04/17/21/19/register-now-7139037_640.png);  */
+    width: 500px;
+    height: 500px;
+     padding: 25px; 
+     margin-top: 50px auto 0; 
+    border-top: 10px solid blue;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+    align-items: center;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);  
+    /* position: absolute;
+    right: 0; */
+
+}
+
+ .container h2{
+    font-size: 30px;
+    line-height: 24px;
+    padding: 30px;
+    text-align: center;
+} 
+
+ .input-name{
+    margin-bottom: 10px;
+    padding: 8px; 
+} 
+
+.input-name i{
+    color: blue;
+
+}
+/* .name{
+    width: 40%;
+ padding: 8px 0 8px 40px; 
+} 
+ 
+.text-name{
+    width: 100%;
+    /* padding: 8px 0 8px 40px; ; */
+
+
+/* .email{
+    padding: 8px;
+}
+.text-name, .name{
+    border: 1px solid #cccccc;
+    outline: none;
+
+}   */
